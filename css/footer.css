@@ -1,0 +1,29 @@
+@import url(fonts.css);
+@import url(common.css);
+
+.footer{
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+}
+.footer_cards{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer_list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 339px;
+    padding-right: 270px;
+}
+.footer_link{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+.footer_card{
+    display: flex;
+    gap: 29px;
+}

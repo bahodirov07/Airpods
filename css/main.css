@@ -1,0 +1,122 @@
+@import url(fonts.css);
+@import url(common.css);
+
+.card1-txt{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    max-width: 538px;
+    width: 100%;
+    padding-top: 33px;
+    padding-bottom: 167px;
+}
+.card2-txt{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    max-width: 540px;
+    width: 100%;
+}
+.card3-txt{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    text-align: right;
+    max-width: 333px;
+    width: 100%;
+    padding-top: 145px;
+    padding-bottom: 110px;
+}
+.card4_txt{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    max-width: 333px;
+    width: 100%;
+    padding-top: 133px;
+    padding-bottom: 98px;
+}
+.main_cards1_1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.main_cards1_2{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.main_cards1_3{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.main_cards1{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    margin-top:24px ;
+    margin-bottom: 79px;
+}
+.main_cards2{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 55px;
+}
+.main_cards2_1{
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 255px;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main_cards2-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    padding-bottom: 10px;
+}
+.main_cars2-money{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.main_cards2-link{
+    background: #151515;
+    padding: 7px 57px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;;
+}
+
+
+.img-menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    &::before, &::after {
+        content: "";
+        width: 61px;;
+        height: 1px;
+        background:#c4c4c4;
+        position: absolute;
+    }
+    
+    &::before {
+        margin: 205px 14px 69px 13px;
+        right: -30%;
+
+    }
+    
+    &::after {
+        margin: 205px 14px 69px 13px;
+        left: -30%;
+    }
+}
